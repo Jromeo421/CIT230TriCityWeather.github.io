@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+	        <meta charset="utf-8">
+            <title>CIT 230 Weather Out There - JJ Hugh</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="Daily Cast for your One Stop Weather">
+            <link  href="styles/normalize.css" rel="stylesheet">
+            <link  href="styles/small.css" rel="stylesheet">
+            <link  href="styles/medium.css" rel="stylesheet">
+            <link  href="styles/large.css" rel="stylesheet" >
+            <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+  <img src="images/meteorologist.png" alt="meteor">
+  <h1>Franklin Weather Cast</h1>
+  <div class="subheading">Always bring your own sunshine.</div>
+  
+  </header>
+         
+            <nav class="clearfix">
+                <button id="down" onclick="toggleMenu()">&#9776;</button>
+                
+                <ul id="menuNav" class="hide">   
+                <li><a href="#Main">Home Page</a></li>
+                <li><a href="#frank">Franklin</a></li>
+                <li><a href="#ville">Greenville</a></li>
+                <li><a href="#spring">Springfield</a></li>
+                <li><a href="#center">StormCenter</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                </ul>
+                
+           </nav>
+       
+         <main>
+  <figure id="frank">
+  	<img src="images/FranklinCity" alt="franklin city">
+  </figure>
+  
+      <h1>In your neighborhood</h1>
+             
+          
+      <section id="weather">
+        <h2>Today's Weather</h2>
+        <p>High: 90&deg;F</p> 
+        <p>Low: 66&deg;F</p>  
+        <p>Change of Precipitation: 0&#37;</p>
+        <p>WInd: 5mph from the South West.</p>
+     </section>
+            
+    
+      <h2>Currently</h2>
+    <div class="current">
+      <picture>
+      <img src="Animations/sunClouds.gif" alt="sunny with clouds" width="100" height="100">
+      </picture>
+    </div>
+             
+      <section class="forecast">
+      <h3 id="tenday">Ten Day Forecast</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>89&deg;F</td>
+                            <td>87&deg;F</td>
+                            <td>78&deg;F</td>
+                            <td>75&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>72&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>89&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>       
+             
+     <figure>
+     <img src="Animations/TDIH.jpg" alt="Today History" class="responsive">
+     </figure> 
+<p class="history">Bonnie Parker met the charismatic Clyde Barrow in Texas when she was 19 years old and her husband (she married when she was 16) was serving time in jail for murder. Shortly after they met, Barrow was imprisoned for robbery. Parker visited him every day, and smuggled a gun into prison to help him escape, but he was soon caught in Ohio and sent back to jail. When Barrow was paroled in 1932, he immediately hooked up with Parker, and the couple began a life of crime together.</p>
+
+<p class="history">After they stole a car and committed several robberies, Parker was caught by police and sent to jail for two months. Released in mid-1932, she rejoined Barrow. Over the next two years, the couple teamed with various accomplices to rob a string of banks and stores across five states–Texas, Oklahoma, Missouri, New Mexico and Louisiana. To law enforcement agents, the Barrow Gang–including Barrow’s childhood friend, Raymond Hamilton, W.D. Jones, Henry Methvin, Barrow’s brother Buck and his wife Blanche, among others–were cold-blooded criminals who didn’t hesitate to kill anyone who got in their way, especially police or sheriff’s deputies. Among the public, however, Parker and Barrow’s reputation as dangerous outlaws was mixed with a romantic view of the couple as “Robin Hood”-like folk heroes.</p>
+
+<p class="history">Their fame was increased by the fact that Bonnie was a woman–an unlikely criminal–and by the fact that the couple posed for playful photographs together, which were later found by police and released to the media. Police almost captured the famous duo twice in the spring of 1933, with surprise raids on their hideouts in Joplin and Platte City, Missouri. Buck Barrow was killed in the second raid, and Blanche was arrested, but Bonnie and Clyde escaped once again. In January 1934, they attacked the Eastham Prison Farm in Texas to help Hamilton break out of jail, shooting several guards with machine guns and killing one.</p>
+
+<p class="history">Texan prison officials hired a retired Texas police officer, Captain Frank Hamer, as a special investigator to track down Parker and Barrow. After a three-month search, Hamer traced the couple to Louisiana, where Henry Methvin’s family lived. Before dawn on May 23, Hamer and a group of Louisiana and Texas lawmen hid in the bushes along a country road outside Sailes. When Parker and Barrow appeared, the officers opened fire, killing the couple instantly in a hail of bullets.</p>
+
+<p class="history">All told, the Barrow Gang was believed responsible for the deaths of 13 people, including nine police officers. Parker and Barrow are still seen by many as romantic figures, however, especially after the success of the 1967 film Bonnie and Clyde, starring Faye Dunaway and Warren Beatty.</p>
+  </main>
+    
+  <footer>
+      <section>
+      <h3>Address</h3>
+      <p>123 Main St.</p> 
+      <p>Austin, TX US 99999</p>
+      </section>
+      
+      <section>
+      <h3>Phone</h3>
+      <p>(555)976-3210</p>
+      </section>
+      
+      <section>
+      <h3>Email</h3>
+      <p>jsmash@cit230.com</p>
+      
+      </section>
+      <section class="footer-bar"><h4>&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate">Current Date Placeholder</span></h4><br>
+        <a href="https://Jromeo421.github.io/index.html">Cit 230 Portal</a>
+            </section>
+  </footer>
+     <script src="scripts/scripts.js"></script>
+</body>
+</html>

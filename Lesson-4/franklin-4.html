@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <title>
+             Weather Out There
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Daily Cast Your one stop Weather hub">
+        <link href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+        <br>
+        <br>
+    <header>
+        <h1>Daily Cast</h1>
+        <br>
+        <img src="../../images/logo_weather.png" height="131" width="172" alt="weather logo">
+        <div class="subheading"><b>No matter what the weather, always bring your own sunshine.</b></div>
+        
+        <br>
+        <br>
+        <div class="weather out here"></div>
+        <audio autoplay="autoplay">
+            <source src="../../audio/Sam_Smith.wav">
+        </audio>
+    </header>
+        
+    
+        <style>
+            body {
+            background-image: url("../../images/yellowcloud.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: 'Syncopate', sans-serif;
+            }
+           
+            ul {list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            li { float: left;
+            }
+            
+            li a { display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover:not(.active) {
+                background-color: #FFC200;
+            }
+
+            .active {
+                background-color: #4CAF50;
+            }
+            h1 { text-align: center;
+                 text-shadow: 2px 2px #ed2939; }
+            div { text-decoration-style: double;
+                  text-align: center;
+                  color: red;
+                  text-shadow: 2px 2px #000;
+                  font-size: .9em;
+            }
+            img { width: 10%; height: auto;}
+            
+        </style>
+        <br>
+        <br>
+        <nav>
+            <ul><il><a href="../../index.html">Main Page</a></il></ul>
+            <h2 id="top"><i>Content</i></h2>
+            <ul class="nav-links">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#frank">Franklin</a></li>
+                <li><a href="#ville">Greenville</a></li>
+                <li><a href="#spring">Springfield</a></li>
+                <li><a href="#center">Storm Center</a></li>
+                <li><a href="#galler">Gallery</a></li>
+            </ul>
+        </nav>
+    </head>
+    
+    <main>
+        
+        <h2 id="frank">Franklin</h2>
+        Go to the <a href="#top">Top</a>
+        <section>
+        <h3>Weather Data</h3>
+        </section>
+        <section>
+        <h3>10 day forecast</h3>
+        </section>
+        <section>
+        <h3><img src="../../images/Franklin_city.png" alt="franklin_city"></h3>
+        </section>
+        <section>
+        <h3>city article and title and associated image</h3>
+        </section>
+        
+        </main>
+    <footer>
+        <aside> <p class="footer-bar">&copy; &nbsp; 2018 &nbsp; J.J Hugh &nbsp;&nbsp; Texas &nbsp;&nbsp; &nbsp;&nbsp;<img class="opacity" src="../../images/logo_weather.png" alt="weather">&nbsp;&nbsp;&nbsp;&nbsp; Weather Out There </p>
+            <span id="currentdate"></span></aside>
+    </footer>
+</html>

@@ -1,0 +1,33 @@
+@media only screen and (min-width: 35em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+      /* hamburger button does not need to be shown in the medium on up views */
+    body {display: flex; flex-direction: column;}
+    nav { 
+    }
+    
+    section.forecast {display: contents;}  /* show the 10-day forecast with the medium view and up */
+    
+    nav ul#menuNav {display: contents;}
+    
+    .currtemp {border-style: solid; border-color: black; color: darkorange; font-size: 12px;}
+    
+    table {margin: 10%; width:700px; height: 50px; border-style: solid;}
+    section {display: flex; flex-flow: row; justify-content: center;}
+    .grid {margin: .5rem; 
+       display: grid;
+       grid-template-columns: 400px 400px;
+       grid-gap: 20px;
+       border-radius: 5px 50px;
+       justify-content: center;
+}
+div.grid img:hover {box-shadow: 5px 5px 10px cadetblue; }
+main figure{max-width: 96%; margin-top: 30px; margin-bottom: 5%}
+main figure img {display: flex; width: 100%; border-radius: 10px  75px;} 
+figcaption:hover {font-size: 10px; text-shadow: 3px 3px 7px cadetblue;}
+.todayw ul li {list-style-type: none; font-size: 12px; }
+    .weather {display:flex; flex-flow: column;}
+    .contactinfo {margin: 0; padding: 0;font-size: 10px;  }
+    .footer-bar {margin: 0; padding: 0; font-size: 10px; line-height: 25px; word-spacing: 10fr; display: flex; flex-direction: column;}
+    }

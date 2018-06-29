@@ -1,0 +1,38 @@
+@media only screen and (min-width: 1080px) { 
+
+    
+nav {  
+background: #ffd051; /* Old browsers */
+background: -moz-linear-gradient(top, #ffd051 0%, #a04c24 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #ffd051 0%,#a04c24 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #ffd051 0%,#a04c24 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd051', endColorstr='#a04c24',GradientType=0 ); /* IE6-9 */}
+        
+    nav button {display: none;}
+    
+    nav ul {margin-left: 2%;}
+    
+    nav ul.hide {display: none; }
+    
+    nav ul li { display: inline-flex; }
+    
+    nav ul li a {display: flex;  border-left: 1px solid rgba(0,0,0,0.3); padding: .6rem 1rem; width: 100%}
+    
+    .grid {margin: .5rem; 
+       display: grid;
+       grid-template-columns: 400fr 400fr 400fr;
+       grid-gap: 20px;
+       border-radius: 5px 50px;
+}
+div.grid img:hover {box-shadow: 5px 5px 10px cadetblue; }
+main figure{max-width: 96%; margin-top: 30px; margin-bottom: 5%}
+main figure img {display: flex; width: 96%; border-radius: 10px  75px;} 
+figcaption:hover {font-size: 10px; text-shadow: 7px 7px 7px cadetblue;}
+.todayw ul li {list-style-type: none; font-size: 12px;}
+    
+table {margin: 0; padding: 1em;  border: solid; border-style: groove; border-color: orange; display: inline-table; font-size: 12px;}
+    
+.contactinfo { padding: 2.5em; display: flex; flex-direction: column;}
+    .footerbar{display: inline-flex; line-height: 5.0em}
+    } /* end large */ 
+       

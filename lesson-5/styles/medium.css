@@ -1,0 +1,22 @@
+@media only screen and (min-width: 35em) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+      /* hamburger button does not need to be shown in the medium on up views */
+    
+    nav button {display: none;}
+    section.forecast {display: contents;}  /* show the 10-day forecast with the medium view and up */
+    
+    nav ul {margin-left: 2%;}
+    
+    nav ul#menuNav {display: contents;}
+    
+    
+    nav ul li { float: left;}
+    
+    nav ul li a {border: none; border-left: 1px solid rgba(0,0,0,0.3); 
+                padding: .8rem 1rem; background-color: black; margin: 0;}
+    
+    
+    
+    }

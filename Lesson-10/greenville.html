@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+	        <meta charset="utf-8">
+            <title>Greenville Weather Page</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="Daily Cast for your One Stop Weather">
+            <link  href="styles/normalize.css" rel="stylesheet">
+            <link  href="styles/small.css" rel="stylesheet">
+            <link  href="styles/medium.css" rel="stylesheet">
+            <link  href="styles/large.css" rel="stylesheet">
+            <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+
+  <img src="images/meteorologist.png" alt="meteor">
+    
+  <h1>Greenvill Weather Cast</h1>
+  <div class="subheading">Always bring your own sunshine.</div>
+  
+  </header>
+         
+            <nav class="clearfix">
+                <button id="down" onclick="toggleMenu()">&#9776;</button>
+                
+                <ul id="menuNav" class="hide">   
+                <li><a href="Tri_City_Weather.html">Home Page</a></li>
+                <li><a href="index.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="Springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">StormCenter</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+                
+           </nav><br>
+       
+<main id="clearfix">
+    <figure id="field2">
+        <img src="images/greenvill_city.jpg" class="responsive" alt="greenville" size="96vw"
+             srcset="images/greenvill_city500.jpg 500w,
+                     images/greenvill_city800.jpg 800w, images/greenvill_city1080.jpg 1080w">
+    </figure>
+    <section class="weather">
+        <h2>Today's Weather</h2>
+        <div class="todayw">
+        <ul>
+            <li>Description: <span id="greendesc">sunny</span></li>
+            <li>Current Temperature: <span id="greencurr">00</span></li>
+            <li>High: <span id='greenhigh'>90</span>&deg;F</li>
+            <li>Low: <span id='greenlow'>66</span>&deg;F</li>
+            <li>Chance of Precipitation: <span id="chanceprec">0</span>&#37;</li>
+            <li>Wind Speed: <span id="greenspeed">00</span> mph from the South-West</li>
+            <li>Windchill: <span id="windchill">5</span>&deg;F</li> 
+        </ul>
+            <img src="images/placeholder1.png" alt="greenvile weather" id="green_icon">
+                </div>
+    </section>
+    
+   
+      <h2>Currently</h2>
+     
+      <section class="forecast">
+      <h3 id="tenday">Ten Day Forecast</h3>
+                <table class="currtemp">
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>92&deg;F</td>
+                            <td>76&deg;F</td>
+                            <td>81&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>83&deg;F</td>
+                            <td>85&deg;F</td>
+                            <td>96&deg;F</td>
+                            <td>101&deg;F</td>
+                            <td>97&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section> 
+        <figure class="contactinfo">
+            <img src="images/Greenvill_city_town.jpg" alt="greenville city">
+        </figure>
+    
+    <article class="history">
+        <h2>This Day in History</h2>
+        <p>On this day in 1995, the American space shuttle Atlantis docks with the Russian space station Mir to form the largest man-made satellite ever to orbit the Earth.
+
+This historic moment of cooperation between former rival space programs was also the 100th human space mission in American history. At the time, Daniel Goldin, chief of the National Aeronautics and Space Administration (NASA), called it the beginning of “a new era of friendship and cooperation” between the U.S. and Russia. With millions of viewers watching on television, Atlantis blasted off from NASA’s Kennedy Space Center in eastern Florida on June 27, 1995.
+
+Just after 6 a.m. on June 29, Atlantis and its seven crew members approached Mir as both crafts orbited the Earth some 245 miles above Central Asia, near the Russian-Mongolian border. When they spotted the shuttle, the three cosmonauts on Mir broadcast Russian folk songs to Atlantis to welcome them. Over the next two hours, the shuttle’s commander, Robert “Hoot” Gibson expertly maneuvered his craft towards the space station. To make the docking, Gibson had to steer the 100-ton shuttle to within three inches of Mir at a closing rate of no more than one foot every 10 seconds.
+
+The docking went perfectly and was completed at 8 a.m., just two seconds off the targeted arrival time and using 200 pounds less fuel than had been anticipated. Combined, Atlantis and the 123-ton Mir formed the largest spacecraft ever in orbit. It was only the second time ships from two countries had linked up in space; the first was in June 1975, when an American Apollo capsule and a Soviet Soyuz spacecraft briefly joined in orbit.
+
+Once the docking was completed, Gibson and Mir’s commander, Vladimir Dezhurov, greeted each other by clasping hands in a victorious celebration of the historic moment. A formal exchange of gifts followed, with the Atlantis crew bringing chocolate, fruit and flowers and the Mir cosmonauts offering traditional Russian welcoming gifts of bread and salt. Atlantis remained docked with Mir for five days before returning to Earth, leaving two fresh Russian cosmonauts on the space station. The three veteran Mir crew members returned with the shuttle, including two Russians and Norman Thagard, a U.S. astronaut who rode a Russian rocket to the space station in mid-March 1995 and spent over 100 days in space, a U.S. endurance record. NASA’s Shuttle-Mir program continued for 11 missions and was a crucial step towards the construction of the International Space Station now in orbit.</p></article>
+</main>
+    
+  
+      
+      <section class="contactinfo">
+      <h3>Address</h3>
+      <span>123 Main St.</span> 
+      <span>Austin, TX US 99999</span>
+      <br>
+      <h3>Phone</h3>
+      <span>(555)976-3210</span>
+      <h3>Email</h3>
+      <span>jsmash@cit230.com</span>
+      </section>
+     <footer>
+      <div class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span>
+        <a href="../../index.html">Cit 230 Portal</a><br>
+            </div>
+  </footer>
+     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/greenvilleweather.js"></script>
+    </body>
+</html>

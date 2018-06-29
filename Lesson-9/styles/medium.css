@@ -1,0 +1,57 @@
+@media only screen and (min-width: 35rem) {
+
+    /* Only CSS write declarations that need to be changed. Do not duplicated declarations that are already established in the main.css */
+    
+      /* hamburger button does not need to be shown in the medium on up views */
+section.forecast {display: grid; margin: 10px;padding: 10px; max-width: 100%; font-size: 10px; grid-row-gap: 10px;}   
+
+nav ul#menuNav {display: contents;}
+    
+   
+header h1{margin: 0; text-align: center;}
+
+    
+
+
+/*-------------------------Tri-City-Weather---------------------------*/
+section#tricitysec {
+    margin: 25px;
+    padding: 25px;
+    display: grid; 
+    grid-template-columns: repeat(3, 400px);
+    max-width: 64rem;
+    grid-row-gap: 10px;
+    grid-template-rows: repeat(1, 400px);
+    
+}
+    
+    section#tricitysec2 {
+    max-width: 64rem;
+    margin: 25px;
+    padding: 25px;
+    display: grid; 
+    grid-template-columns: repeat(3, 400px);
+    min-width: 35rem;
+    grid-row-gap: 10px;
+    grid-template-rows: repeat(3, 400px);
+    
+}
+
+.sec2write, .sec3write, .sec4write {display: grid;}
+ 
+section#tricitysec .story1 {grid-column: 1; grid-row: 1;}    
+section#tricitysec .sec1 {padding: 10px; margin: auto; grid-column: 2; grid-row: 1;}
+    
+section#tricitysec2 .sec2 {padding: 10px; margin: auto; grid-row: 1;grid-column: 1;}
+section#tricitysec2 .sec2write {padding: 10px; margin: auto; grid-column: 2; grid-row: 1;} 
+    
+section#tricitysec2 .sec3 {padding: 10px; margin: auto; grid-row: 2; grid-column: 2 }
+section#tricitysec2 .sec3write {padding: 10px; margin: auto; grid-row: 2; grid-column: 1;} 
+    
+section#tricitysec2 .sec4 {padding: 10px; margin: auto; grid-row: 3; grid-column: 1 }
+section#tricitysec2 .sec4write {padding: 10px; margin: auto; grid-row: 3; grid-column: 2;}
+    
+
+    
+    
+}

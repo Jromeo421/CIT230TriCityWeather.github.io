@@ -1,0 +1,79 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 8px;
+  background-color: gray;/* Declare the base color */
+    
+  
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+   /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {padding: 4em; color: black;}
+
+header h1 {text-align: center;}
+
+header img {border-radius: 50%; 
+             height: 50px;  
+             float: left;}
+
+header .subheading {font-size: 10px;
+                    text-align: center;
+                   }
+
+nav {background-color: black; }
+/*----Clearfix: Force an element to collapse ----*/
+
+nav button { background-color: transparent; 
+            border: none; font-size: 1.6rem; 
+            color: white;}
+
+nav ul {list-style-type: none; padding: 0; margin: 0; 
+        
+}
+.weathergallery {display: flex;  align-content: center; grid-template-columns: auto auto auto; grid-gap: 10px; background-color: gray; padding: 10px; width: 75%; height: auto; }
+ 
+
+
+nav ul.hide {display: none;}
+
+nav ul li {margin: 0;}
+
+nav ul li a {display: block; 
+    padding: .8em 2%; 
+    text-decoration: none; 
+    color: rgba(255,255,255,0.8); 
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li{padding: 5px;}
+
+nav ul li a:hover {background-color: rgba(255,255,255,0.3);}
+
+picture img{border-radius: 50%;}
+
+section.forecast{display: none;}
+
+.history {padding: 2%; 
+         text-indent: 5%; 
+         width: 100%; 
+         height: auto; 
+         text-align: left;}
+
+table {width: 100%; height: auto; }
+
+main {text-align: center;}
+main h2 {text-align: center;}
+
+main figure{ margin: 20px; width:96%;}
+
+main figure img {padding: 0; margin: 0; width: 90%; height: auto;border-radius: 1px 50px; 
+  } 
+
+footer {text-align: center; margin: 2%; padding: .2rem; background-color: cadetblue;}
+.clearfix:after { content: ""; display: table; clear: both;}

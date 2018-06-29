@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+	        <meta charset="utf-8">
+            <title>Franklin Weather Feedback</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="Daily Cast for your One Stop Weather">
+            
+            <link  href="styles/normalize.css" rel="stylesheet">
+            <link  href="styles/small.css" rel="stylesheet">
+            <link  href="styles/medium.css" rel="stylesheet">
+            <link  href="styles/large.css" rel="stylesheet">
+            <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+        
+            
+</head>
+<body>
+  <header>
+
+  <img src="images/meteorologist.png" alt="meteor">
+    
+  <h1>Franklin Weather Cast</h1>
+  <h2 class="subheading">Always bring your own sunshine.</h2>
+  
+  </header>
+         
+            <nav class="clearfix">
+                <button id="down" onclick="toggleMenu()">&#9776;</button>
+                
+                <ul id="menuNav" class="hide">   
+                <li><a href="../../index.html">Home Page</a></li>
+                <li><a href="../Franklin-7/index.html">Franklin</a></li>
+                <li><a href="#ville">Greenville</a></li>
+                <li><a href="#spring">Springfield</a></li>
+                <li><a href="stormcenter.html">Storm Center</a></li>
+                <li><a href="../Franklin-7/gallery.html">Gallery</a></li>
+                </ul>
+                
+           </nav>
+    
+ 
+        <main>
+            <h2>Storm Center Form</h2>
+
+            <form name="stormcenter" method="get" action="thanks.html" id="formalert">
+
+<fieldset>
+    <legend>Personal Information</legend>
+        <label class="top">First Name* <input type="text" name="fname" required></label>
+        <label class="top">Last Name* <input type="text" name="lname" required></label>
+        <label class="top">E-mail* <input type="email" name="email" placeholder="visiter@gmail.com" required></label>
+        <label class="top">Phone <input type="tel" name="phone" placeholder="9999999999" required></label>
+        <label class="top">Zip Code* <input type="number"  placeholder="99999" required></label>
+</fieldset>
+
+                
+    <fieldset>
+        <legend>Storm Information</legend>
+        <label class="top">Storm Date:
+            <input name="stormdate" type="date"></label>
+        <label class="sbs">Storm Type:
+            <select name="type">
+                <option value="">Please Select</option>
+                <option value="Flash Flood">Flash Food</option>
+                <option value="Hail">Fail</option>
+                <option value="Hurricane">Hurricane</option>
+                <option value="Thunderstorm">Thunderstorm</option>
+                <option value="Tornado">Tornado</option>
+            </select>
+            </label>
+    
+        <label class="sbs">Storm Severity: (1 to 10)<br><input id="rating" name="severity" type="range" value="1" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="severitylevel">10</span></label><br>
+        <label class="sbs">
+        <span>Storm Region:</span><br>
+            <select name="region">
+                <option value="">Select The Region</option>
+                <option value="Franklin">Franklin</option>
+                <option value="Greenville">Greenville</option>
+                <option value="Springfield">Springfield</option>
+            </select>
+        </label>
+        <label class="top">Level of Danger: <br><input name="danger" type="radio" value="yes">Yes</label>
+        <label class="top"><input name="danger" type="radio" value="maybe">Maybe</label>
+        <label class="top"><input name="danger" type="radio" value="no">No</label>
+     </fieldset>
+                
+     <fieldset>    
+        <legend>Feel Free to share your Thoughts</legend>
+        <textarea class="textbox" rows="10" cols="25" name="comments"></textarea>
+    </fieldset>
+                
+    <input type="submit" value="SUBMIT MY SURVEY!" class="submitBtn"><br>
+</form>
+</main>
+    
+<footer class="mainpage">
+  <section class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span> | 
+        <a href="../../index.html"> Cit 230 Portal</a>
+            </section>
+  
+     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+    </footer>
+     </body>
+</html>

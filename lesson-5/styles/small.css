@@ -1,0 +1,72 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 12px;
+  background-color: gray;/* Declare the base color */
+    
+  
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+   /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {padding: 4em; color: black;}
+
+header h1 {text-align: center;}
+
+header img {border-radius: 50%; 
+             height: 50px;  
+             float: left;}
+
+header .subheading {font-size: 10px;
+                    text-align: center;
+                   }
+
+nav {background-color: #000;}
+/*----Clearfix: Force an element to collapse ----*/
+.clearfix::after { content: ""; display: table; clear: both;}
+nav button { background-color: transparent; 
+            border: none; font-size: 1.6rem; 
+            color: #555;}
+
+nav ul {list-style-type: none; 
+        
+}
+
+
+nav ul.hide {display: none;}
+
+nav ul li {margin: 0;}
+
+nav ul li a {display: block; padding: .8em 2%; text-decoration: none; color: #fff; border-top: 2px solid rgba(0,0,0,0.8);}
+
+nav ul li{padding: 0;}
+
+nav ul li a:hover {background-color: rgba(0,0,0,0.3);}
+
+picture img{border-radius: 50%;}
+
+section.forecast{display: none;}
+
+.history {padding: 4%; 
+         text-indent: 5%; 
+         width: 100%; 
+         height: auto; 
+    text-align: center;}
+
+table {width: 100%; height: auto; }
+
+main {text-align: center;}
+
+main h2 {text-align: center;}
+
+main figure { margin: 0 0 .2rem 2%; width:96%;}
+
+main figure img {margin: 0; width: 96%; height: auto; border-radius: 20%; 
+    padding: 10%; } 
+footer {text-align: center; margin: 2%; padding: .2rem;}
+

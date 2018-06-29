@@ -1,0 +1,87 @@
+/* Delete these CSS comments after reading. */
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* { box-sizing: border-box;}  /* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+  font-size: 8px;
+  background-color: gray;/* Declare the base color */
+  text-align: center;
+    
+  
+}
+
+header, nav, main, footer { /* the comma between the selectors means apply the following CSS declarations to all of the listed elements */
+   /* Declare the maximum width and other main element rules to limit the stretch on larger/wider views */
+}
+
+header {padding: 4em; color: black; }
+
+header h1 { display: flex; flex-direction: column;}
+
+header img {border-radius: 50%; 
+             height: 50px;  
+             display: flex;}
+
+header .subheading {font-size: 10px; display: flex; flex-direction: column;
+                   }
+
+nav {background-color: black; font-size: 14px;}
+/*----Clearfix: Force an element to collapse ----*/
+
+nav button { background-color: transparent; 
+            border: none; font-size: 25px; display:flex; flex-direction: column;
+            color: white;}
+
+nav ul {list-style-type: none; padding: 0; margin: 0; text-decoration: none;  
+        
+}
+nav ul.hide {display: none;}
+
+nav ul li {margin: 0; }
+
+nav ul li a {display: flex; 
+    padding: .8em 2%; 
+    text-decoration: none; 
+    color: rgba(255,255,255,0.8); 
+    border-top: 1px solid rgba(0,0,0,0.3);
+}
+
+nav ul li{padding: 5px;}
+
+nav ul li a:hover {background-color: rgba(255,255,255,0.3);}
+
+section.forecast{display: none;}
+
+.history {padding: 0%; margin: 5px;
+         text-indent: 9%; 
+         width: 96%; 
+         text-align: left; font-size: 12px; line-height: 2.0;}
+
+
+
+main {margin: 0; padding: 0;}
+main h2 { font-size: 20px}
+.grid {margin: .5rem; 
+       display: grid;
+       grid-template-columns: 400px;
+       grid-gap: 20px;
+       border-radius: 5px 50px;
+}
+.gallerytitle {color:orange; text-shadow: 5px 5px 5px black;  font-size: 24px}
+
+div.grid img:hover {box-shadow: 5px 5px 10px cadetblue; }
+
+main figure{max-width: 96%; margin-top: 30px; margin-bottom: 5%}
+
+main figure img {display: flex; width: 100%; border-radius: 10px  75px;} 
+
+figcaption {font-size: 10px; margin: 10px;}
+
+figcaption:hover {text-shadow: 7px 7px 7px cadetblue;}
+
+.todayw ul li {list-style-type: none; font-size: 12px;}
+
+.contactinfo {padding: 5%; background-color: cadetblue;}
+
+.clearfix:after { content: ""; display: table; clear: both;}

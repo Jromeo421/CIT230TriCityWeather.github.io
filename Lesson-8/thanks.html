@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head> 
+                <meta charset="utf-8">
+                <title>Franklin Weather Feedback</title>
+
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta name="description" content="Daily Cast for your One Stop Weather">
+
+                <link  href="styles/normalize.css" rel="stylesheet">
+                <link  href="styles/small.css" rel="stylesheet">
+                <link  href="styles/medium.css" rel="stylesheet">
+                <link  href="styles/large.css" rel="stylesheet">
+                <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+
+
+    </head>
+        <body>
+          <header>
+
+          <img src="images/meteorologist.png" alt="meteor">
+
+          <h1>Franklin Weather Cast</h1>
+          <h2 class="subheading">Always bring your own sunshine.</h2>
+
+          </header>
+            <nav class="clearfix">
+                <button id="down" onclick="toggleMenu()">&#9776;</button>
+                
+                <ul id="menuNav" class="hide">   
+                <li><a href="../../index.html">Home Page</a></li>
+                <li><a href="../Franklin-7/index.html">Franklin</a></li>
+                <li><a href="#ville">Greenville</a></li>
+                <li><a href="#spring">Springfield</a></li>
+                <li><a href="stormcenter.html">StormCenter</a></li>
+                <li><a href="../Franklin-7/gallery.html"#gallery>Gallery</a></li>
+                </ul>
+                
+           </nav>
+            <main>
+                <div class="thanks">Thank you for your Survey!!</div>
+            </main>
+
+        </body>
+    <footer class="mainpage">
+  <section class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span>
+        <a href="../../index.html">Cit 230 Portal</a><br>
+            </section>
+  
+     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/windchill.js"></script>
+    </footer>
+    
+</html>

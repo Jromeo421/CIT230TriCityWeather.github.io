@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+	        <meta charset="utf-8">
+            <title>Springfield Weather Page</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="Daily Cast for your One Stop Weather">
+            <link  href="styles/normalize.css" rel="stylesheet">
+            <link  href="styles/small.css" rel="stylesheet">
+            <link  href="styles/medium.css" rel="stylesheet">
+            <link  href="styles/large.css" rel="stylesheet">
+            <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+
+  <img src="images/meteorologist.png" alt="meteor">
+    
+  <h1>Springfield Weather Cast</h1>
+  <div class="subheading">Always bring your own sunshine.</div>
+  
+  </header>
+         
+            <nav class="clearfix">
+                <button id="down" onclick="toggleMenu()">&#9776;</button>
+                
+                <ul id="menuNav" class="hide">   
+                <li><a href="Tri_City_Weather.html">Home Page</a></li>
+                <li><a href="index.html">Franklin</a></li>
+                <li><a href="greenville.html">Greenville</a></li>
+                <li><a href="Springfield.html">Springfield</a></li>
+                <li><a href="stormcenter.html">StormCenter</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+                
+           </nav><br>
+       
+<main id="clearfix">
+    <figure id="field2">
+        <img src="images/springfield_nights.jpg" class="responsive" alt="springfield" size="96vw"
+             srcset="images/springfield_nights.jpg 500w,
+                     images/springfield_nights.jpg 800w, images/springfield_nights.jpg 1080w">
+    </figure>
+    <section class="weather">
+        <h2>Today's Weather</h2>
+        <div class="todayw">
+        <ul>
+            <li>Description: <span id="springdesc">sunny</span></li>
+            <li>Current Temperature: <span id="springcurr">00</span></li>
+            <li>High: <span id='springhigh'>90</span>&deg;F</li>
+            <li>Low: <span id='springlow'>66</span>&deg;F</li>
+            <li>Chance of Precipitation: <span id="springprec">0</span>&#37;</li>
+            <li>Wind Speed: <span id="springspeed">00</span> mph from the South-West</li>
+            <li>Windchill: <span id="windchill">5</span>&deg;F</li> 
+        </ul>
+            <img src="images/placeholder1.png" alt="springfield weather" id="spring_icon">
+                </div>
+    </section>
+    
+   
+      <h2>Currently</h2>
+     
+      <section class="forecast">
+      <h3 id="tenday">Ten Day Forecast</h3>
+                <table class="currtemp">
+                    <thead>
+                        <tr>
+                            <th>Day 1</th>
+                            <th>Day 2</th>
+                            <th>Day 3</th>
+                            <th>Day 4</th>
+                            <th>Day 5</th>
+                            <th>Day 6</th>
+                            <th>Day 7</th>
+                            <th>Day 8</th>
+                            <th>Day 9</th>
+                            <th>Day 10</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>72&deg;F</td>
+                            <td>69&deg;F</td>
+                            <td>82&deg;F</td>
+                            <td>90&deg;F</td>
+                            <td>80&deg;F</td>
+                            <td>71&deg;F</td>
+                            <td>69&deg;F</td>
+                            <td>96&deg;F</td>
+                            <td>79&deg;F</td>
+                            <td>84&deg;F</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section> 
+        <figure class="contactinfo">
+            <img src="images/springfield_city_skyline.jpg" alt="springfield city">
+        </figure>
+    
+    <article class="history">
+        <h2>This Day in History</h2>
+        <p>On this day in 1862, at the Battle of Savage’s Station, Virginia, Confederate General Robert E. Lee attacks Union General George McClellan as he is pulling his army away from Richmond, Virginia, in retreat during the Seven Days’ Battles. Although the Yankees lost 1,000 men–twice as many as the Rebels–they were able to successfully protect the retreat.
+
+George McClellan spent the spring of 1862 preparing the Army of the Potomac for a campaign up the James Peninsula toward Richmond. For nearly three months, McClellan landed his troops at Fort Monroe, at the end of the peninsula, and worked northwest to Richmond. The Seven Days’ Battles were the climax of this attempt to take the Confederate capital. Although he had an advantage in numbers, McClellan squandered it and surrendered the initiative to Lee, who attacked the Yankees and began driving them away from Richmond.
+
+As McClellan retreated, Lee hounded his army. When the Union army moved past Savage’s Station–a stop on the Richmond and York River Railroad and the site of a Union hospital–Lee ordered an assault on the troops screening the retreat. This was a chance to break McClellan’s flank and deal a shattering defeat to the Yankees. But although Lee’s strategy was sound, it was complicated, requiring precise timing on the part of several generals. The Confederates inflicted serious damage on the Northerners but were not able to break the rear guard. Fighting continued until nightfall, when a torrential rainstorm ended the battle.</p></article>
+</main>
+    
+  
+      
+      <section class="contactinfo">
+      <h3>Address</h3>
+      <span>123 Main St.</span> 
+      <span>Austin, TX US 99999</span>
+      <br>
+      <h3>Phone</h3>
+      <span>(555)976-3210</span>
+      <h3>Email</h3>
+      <span>jsmash@cit230.com</span>
+      </section>
+     <footer>
+      <div class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span>
+        <a href="../../index.html">Cit 230 Portal</a><br>
+            </div>
+  </footer>
+     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/springfieldweather.js"></script>
+    </body>
+</html>

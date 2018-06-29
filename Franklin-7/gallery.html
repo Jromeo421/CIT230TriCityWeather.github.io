@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head> 
+	        <meta charset="utf-8">
+            <title>CIT 230 Weather Out There - JJ Hugh</title>
+            
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="Daily Cast for your One Stop Weather">
+            <link  href="styles/normalize.css" rel="stylesheet">
+            <link  href="styles/small.css" rel="stylesheet">
+            <link  href="styles/medium.css" rel="stylesheet">
+            <link  href="styles/large.css" rel="stylesheet">
+            <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+
+  <img src="images/meteorologist.png" alt="meteor">
+    
+  <h1>Franklin Weather Cast</h1>
+  <div class="subheading">Always bring your own sunshine.</div>
+  
+  </header>
+         
+            <nav class="clearfix">
+                <button id="down" onclick="toggleMenu()">&#9776;</button>
+                
+                <ul id="menuNav" class="hide">   
+                <li><a href="../../index.html">Home Page</a></li>
+                <li><a href="index.html">Franklin</a></li>
+                <li><a href="#ville">Greenville</a></li>
+                <li><a href="#spring">Springfield</a></li>
+                <li><a href="#center">StormCenter</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+                
+           </nav>
+    
+  	<main>
+  		<h2 class="gallerytitle">Weathe Out Side</h2>
+  			<div class="grid">
+				<figure>
+				<img src="images/flower_garden.jpg" alt="flower garden">
+					<figcaption>Beautiful day in a flower garden</figcaption>
+				</figure>
+				<figure>
+				<img src="images/snowy_winter.jpg" alt="snowy winter">
+					<figcaption>The glimmer of the winter lake</figcaption>
+				</figure>
+				<figure>
+				<img src="images/sunny-608x333.jpg" alt="sunny day">
+					<figcaption>Blue skies with the summer hills </figcaption>
+				</figure>
+				<figure>
+				<img src="images/rainy-day.jpg" alt="rainy day">
+					<figcaption>Raining while we walk</figcaption>
+				</figure>
+				<figure>
+				<img src="images/tornado_valley.jpg" alt="tornado">
+					<figcaption>Tornado line in the middle of nowhere</figcaption>
+				</figure>
+				<figure>
+				<img src="images/fall_trees.jpg" alt="fall">
+					<figcaption>The beautiful fall trees light up the town</figcaption>
+				</figure>
+			</div>
+	</main>
+    
+	<footer class="contactinfo">
+        <h2>Contact Information</h2>
+      <section>
+      <br>
+          
+      <span>Address: </span><br>
+      <span>123 Main St.</span><br>
+      <span>Austin, TX US 99999</span><br>
+      </section><br>
+      
+      <section><br>
+      <span>Phone: </span><br>
+      <span>(555)976-3210</span><br>
+      </section><br>
+      
+      <section>
+      <span>Email: </span>
+      <span>jsmash@cit230.com</span>
+      
+      </section>
+        <br>
+      <section class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span>
+      
+        </section><span><a href="../../index.html">Cit 230 Home Portal</a></span>
+  </footer>
+     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+         </body>
+</html>

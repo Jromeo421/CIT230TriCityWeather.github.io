@@ -1,0 +1,22 @@
+body {width: 100%; font-family: Ubuntu, sans-serif;display: flex; justify-content: center; background-color: tan; }
+
+header {margin: 0; padding: 10%;}
+table {border-collapse: separate;
+       border-spacing: 0;
+       box-shadow: 10px 10px 10px gray;
+       
+}
+ul {list-style-type: none;}
+th, td { text-align: center; padding: 10px;}
+
+tbody tr:nth-child(odd){background-color: #e7ffed;}
+tbody tr:nth-child(even){background-color: #e7f0ed;}
+
+
+tfoot tr {background-color: #7fb9c2; font-size: .8em; color:#000000;}
+thead th {background-color: #7fb9c2; font-size: 1.7em; color:#000000;}
+th {background-color: #628ca6; color: #fff; font-size: 110%; text-align: center; color: #ffffff;}
+table, td, th { border: .5px solid #cccccc; height: 0px;}
+.change td:nth-last-child(1){color:#ffffff; background-color: #628ca6;}
+#mark {background: #628ca6; color: #fff;}
+
