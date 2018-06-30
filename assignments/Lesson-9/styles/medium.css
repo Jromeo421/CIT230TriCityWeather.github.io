@@ -7,7 +7,8 @@ section.forecast {display: grid; margin: 10px;padding: 10px; max-width: 100%; fo
 
 nav ul#menuNav {display: contents;}
     
-   
+ nav ul li.active a {background: linear-gradient(orange 0%, red 100%);}
+    
 header h1{margin: 0; text-align: center;}
 
     

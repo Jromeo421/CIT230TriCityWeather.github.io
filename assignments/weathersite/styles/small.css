@@ -48,11 +48,11 @@ nav ul li a {display: flex;
     border-top: 1px solid rgba(0,0,0,0.3);
 }
 
-nav ul li.menuNav a {background: linear-gradient(#147429 0%, #1a9835 100%);}
-
 nav ul li{padding: 5px;}
 
 nav ul li a:hover {background-color: rgba(255,255,255,0.3);}
+
+nav ul li a.active {background-color: linear-gradient(orange 50%, red 100%);}
 
 section.forecast{display: none;}
 
