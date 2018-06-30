@@ -5,19 +5,20 @@
 * { margin: 20; box-sizing: border-box; font-family: 'Syncopate', sans-serif; /* Indie Flower */;} 
 
 body { 
-    font-size: 18px; 
+    font-size: 14px; 
     line-height: 35px;
     color: #FFAB00/* #FFAB00 */;
+    background-color: gray;
 }
 
 h1 {
-    font-size: 2.75rem/* x.xrem  (rem is a unit of measure) */;
-    color: darkgoldenrodyellow/* #B27800 */;
+    font-size: 1.25rem/* x.xrem  (rem is a unit of measure) */;
+    color: Black/* #B27800 */;
     text-align: center;
 }
 
 main {
-    font-size: 1.5rem/* x.xrem */;
+    font-size: 14px/* x.xrem */;
     text-align: left;
 }
 main figure.myphoto { width: 50%; margin: 0 0 0 2%; float: right;}
@@ -46,5 +47,6 @@ header img {
 
 footer {
     clear: both;
-    font-size: 1.7rem /* smaller */;
+    text-align: center;
+    font-size: 12px /* smaller */;
 }
