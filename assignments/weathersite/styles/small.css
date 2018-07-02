@@ -52,7 +52,7 @@ nav ul li{padding: 5px;}
 
 nav ul li a:hover {background-color: rgba(255,255,255,0.3);}
 
-nav ul li.active a{background-color: linear-gradient(orange 50%, red 100%);}
+nav ul li.active a{background: linear-gradient(orange 50%, red 100%);}
 
 section.forecast{display: none;}
 
