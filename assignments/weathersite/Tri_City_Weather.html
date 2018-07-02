@@ -14,31 +14,13 @@
             <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-
-  <img src="images/meteorologist.png" alt="meteor">
-    
-  <h1>Tri-City Page</h1>
-  <div class="subheading">Always bring your own sunshine.</div>
-  
+  <header includefile="header.html" class="clearfix">
   </header>
          
-            <nav class="clearfix">
-                <button id="down" onclick="toggleMenu()">&#9776;</button>
-                
-                <ul id="menuNav" class="hide">   
-                <li><a href="Tri_City_Weather.html">Home Page</a></li>
-                <li><a class="" href="index.html">Franklin</a></li>
-                <li><a class="" href="greenville.html">Greenville</a></li>
-                <li><a class="" href="Springfield.html">Springfield</a></li>
-                <li><a class=""href="stormcenter.html">StormCenter</a></li>
-                <li><a class="" href="gallery.html">Gallery</a></li>
-                </ul>
-                
-                
+            <nav includefile="nav.html" class="clearfix">     
            </nav><br>
        
-<main id="clearfix">
+<main class="clearfix">
             
             
             <section id="tricitysec">
@@ -95,16 +77,14 @@
       <span>(555)976-3210</span>
       <h3>Email</h3>
       <span>jsmash@cit230.com</span>
+         
       </section>
-     <footer>
-      <div class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span>
-        <a href="../../index.html">Cit 230 Portal</a><br>
-            </div>
+    <footer includefile="footer.html">    
   </footer>
     
      <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/tri_city_data.js"></script>
-    <script src="scripts/active.js"></script>
+    <script src="scripts/include.js"></script>
      </body>
 </html>

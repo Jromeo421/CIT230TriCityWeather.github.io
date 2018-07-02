@@ -13,28 +13,11 @@
             <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-
-  <img src="images/meteorologist.png" alt="meteor">
-    
-  <h1>Franklin Weather Cast</h1>
-  <div class="subheading">Always bring your own sunshine.</div>
+  <header includefile="header.html">
   
   </header>
-         <nav class="active">
-            <div class="clearfix">
-                <button id="down" onclick="toggleMenu()">&#9776;</button>
-                
-                <ul id="menuNav" class="hide">   
-                <li><a class="" href="Tri_City_Weather.html">Home Page</a></li>
-                <li><a class="" href="index.html">Franklin</a></li>
-                <li><a class=""href="greenville.html">Greenville</a></li>
-                <li><a class="" href="#spring">Springfield</a></li>
-                <li><a class="" href="#center">StormCenter</a></li>
-                <li><a class="" href="gallery.html">Gallery</a></li>
-                </ul>
-                </div>
-           </nav>
+         <nav includefile="nav.html" class="clearfix">
+         </nav>
        
          <main id="clearfix">
   <figure id="field">
@@ -106,9 +89,6 @@
      <h2>This Day in History</h2>
     <p>Bonnie Parker met the charismatic Clyde Barrow in Texas when she was 19 years old and her husband (she married when she was 16) was serving time in jail for murder. Shortly after they met, Barrow was imprisoned for robbery. Parker visited him every day, and smuggled a gun into prison to help him escape, but he was soon caught in Ohio and sent back to jail. When Barrow was paroled in 1932, he immediately hooked up with Parker, and the couple began a life of crime together. After they stole a car and committed several robberies, Parker was caught by police and sent to jail for two months. Released in mid-1932, she rejoined Barrow. Over the next two years, the couple teamed with various accomplices to rob a string of banks and stores across five states–Texas, Oklahoma, Missouri, New Mexico and Louisiana. To law enforcement agents, the Barrow Gang–including Barrow’s childhood friend, Raymond Hamilton, W.D. Jones, Henry Methvin, Barrow’s brother Buck and his wife Blanche, among others–were cold-blooded criminals who didn’t hesitate to kill anyone who got in their way, especially police or sheriff’s deputies. Among the public, however, Parker and Barrow’s reputation as dangerous outlaws was mixed with a romantic view of the couple as “Robin Hood”-like folk heroes. Their fame was increased by the fact that Bonnie was a woman–an unlikely criminal–and by the fact that the couple posed for playful photographs together, which were later found by police and released to the media. Police almost captured the famous duo twice in the spring of 1933, with surprise raids on their hideouts in Joplin and Platte City, Missouri. Buck Barrow was killed in the second raid, and Blanche was arrested, but Bonnie and Clyde escaped once again. In January 1934, they attacked the Eastham Prison Farm in Texas to help Hamilton break out of jail, shooting several guards with machine guns and killing one. Texan prison officials hired a retired Texas police officer, Captain Frank Hamer, as a special investigator to track down Parker and Barrow. After a three-month search, Hamer traced the couple to Louisiana, where Henry Methvin’s family lived. Before dawn on May 23, Hamer and a group of Louisiana and Texas lawmen hid in the bushes along a country road outside Sailes. When Parker and Barrow appeared, the officers opened fire, killing the couple instantly in a hail of bullets. All told, the Barrow Gang was believed responsible for the deaths of 13 people, including nine police officers. Parker and Barrow are still seen by many as romantic figures, however, especially after the success of the 1967 film Bonnie and Clyde, starring Faye Dunaway and Warren Beatty.</p></article>
   </main>
-    
-  
-      
       <section class="contactinfo">
       <h3>Address</h3>
       <span>123 Main St.</span> 
@@ -119,14 +99,12 @@
       <h3>Email</h3>
       <span>jsmash@cit230.com</span>
       </section>
-      <footer>
-      <section class="footerbar"><h3>Information</h3>&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span>
-        <a href="../../index.html">Cit 230 Portal</a><br>
-            </section>
-  </footer>
+    
+      <footer includefile="footer.html" class="clearfix">
+      </footer>
      <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/weather.js"></script>
-    <script src="scripts/active.js"></script>
+    <script src="scripts/include.js"></script>
      </body>
 </html>

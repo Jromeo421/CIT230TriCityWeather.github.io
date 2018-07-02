@@ -13,28 +13,11 @@
             <link  href="https://fonts.googleapis.com/css?family=Syncopate:400,700" rel="stylesheet">
 </head>
 <body>
-  <header>
-
-  <img src="images/meteorologist.png" alt="meteor">
-    
-  <h1>Springfield Weather Cast</h1>
-  <div class="subheading">Always bring your own sunshine.</div>
+  <header includefile="header">
   
   </header>
          
-            <nav class="clearfix">
-                <button id="down" onclick="toggleMenu()">&#9776;</button>
-                
-                <ul id="menuNav" class="hide">   
-                <li><a href="Tri_City_Weather.html">Home Page</a></li>
-                <li><a href="index.html">Franklin</a></li>
-                <li><a href="greenville.html">Greenville</a></li>
-                <li><a href="Springfield.html">Springfield</a></li>
-                <li><a href="stormcenter.html">StormCenter</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                </ul>
-                
-           </nav><br>
+            <nav includefile="nav.html" class="clearfix"><br>
        
 <main id="clearfix">
     <figure id="field2">
@@ -119,11 +102,8 @@ As McClellan retreated, Lee hounded his army. When the Union army moved past Sav
       <h3>Email</h3>
       <span>jsmash@cit230.com</span>
       </section>
-     <footer>
-      <div class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span>
-        <a href="../../index.html">Cit 230 Portal</a><br>
-            </div>
-  </footer>
+     <footer includefile="footer.html">
+     </footer>
      <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/springfieldweather.js"></script>

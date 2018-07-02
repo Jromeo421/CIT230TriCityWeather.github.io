@@ -16,26 +16,11 @@
             
 </head>
 <body>
-  <header>
-
-  <img src="images/meteorologist.png" alt="meteor">
-    
-  <h1>Storm Center Feedback</h1>
-  <h2 class="subheading">Always bring your own sunshine.</h2>
+  <header includefile="header.html" class="clearfix">
   
   </header>
          
-            <nav class="clearfix">
-                <button id="down" onclick="toggleMenu()">&#9776;</button>
-                
-                <ul id="menuNav" class="hide">   
-                <li><a href="Tri_City_Weather.html">Home Page</a></li>
-                <li><a href="index.html">Franklin</a></li>
-                <li><a href="greenville.html">Greenville</a></li>
-                <li><a href="Springfield.html">Springfield</a></li>
-                <li><a href="stormcenter.html">Storm Center</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                </ul>
+            <nav includefile="nav.html" class="clearfix">
                 
            </nav>
     
@@ -94,15 +79,12 @@
 </form>
 </main>
     
-<footer class="mainpage">
-  <section class="footerbar">&copy;2018 | All Rights Reserved | Franklin Weather Cast | <span id="currentdate"></span> | 
-        <a href="../../index.html"> Cit 230 Portal</a>
-            </section>
-  
+<footer includefile="footer.html" class="mainpage">
+  </footer>
      <script src="scripts/hamburger.js"></script>
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/windchill.js"></script>
     <script src="scripts/active.js"></script>
-    </footer>
+    <script src="scripts/include.js"></script>
      </body>
 </html>
