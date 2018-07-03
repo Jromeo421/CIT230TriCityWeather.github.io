@@ -49,10 +49,10 @@ nav ul li a {display: flex;
 }
 
 nav ul li{padding: 5px;}
-
+    
 nav ul li a:hover {background-color: rgba(255,255,255,0.3);}
 
-nav ul li a .active {background: linear-gradient(orange 50%, red 100%);}
+nav ul li a.active {background-color: rgba(0,0,0,0.1);}
 
 section.forecast{display: none;}
 
